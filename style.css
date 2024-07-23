@@ -1,0 +1,66 @@
+body {
+  background-color: #f4d04e;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.innercard {
+  width: 384px;
+  height: 522px;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 24px;
+  background-color: whitesmoke;
+}
+
+.imageClass {
+  width: 100%;
+  object-fit: cover;
+  height: auto;
+  max-height: 200px;
+  border-radius: 10px;
+}
+
+.publishClass {
+  width: 183px;
+  height: 21px;
+}
+.description {
+  width: 100%;
+  height: 48px;
+}
+.author {
+  width: 153px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header {
+  background-color: #f4d04e;
+  width: 82px;
+  height: 29px;
+  border-radius: 4px;
+  padding: 4px 12px;
+  text-align: center;
+}
+.userpic {
+  height: 32px;
+  width: 32px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* missing items:
+::shadow
+spacing 
+header vertical alignment  
+missing font type */
